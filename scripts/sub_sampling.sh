@@ -7,8 +7,9 @@ mkdir -p $sampled_data
 
 # Sub-sample to 100k lines
 head -n 100000 $data/train.de-it.de > $sampled_data/train.de-it.de
-head -n 100000 $data/train.de-it.it > $sampled_data/train.de-it.it
+head -n 100000 $data/train.de-it.it > $sampled_data/train.de-it.it 
 
+# Copy dev and test sets
 cp $data/dev.de-it.de $sampled_data/dev.de-it.de
 cp $data/dev.de-it.it $sampled_data/dev.de-it.it
 cp $data/test.de-it.de $sampled_data/test.de-it.de
