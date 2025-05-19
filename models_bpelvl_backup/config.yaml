@@ -1,5 +1,6 @@
 name: "transformer_sample_config"
 joeynmt_version: "2.0.0"
+overwrite: True
 
 
 data:
@@ -36,7 +37,7 @@ data:
 
 testing:
     beam_size: 5
-    beam_alpha: 1.0
+    alpha: 1.0
 
 training:
     random_seed: 42
