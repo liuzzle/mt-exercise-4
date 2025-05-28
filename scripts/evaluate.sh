@@ -30,11 +30,11 @@ translations_sub=$translations/$model_name
 
 mkdir -p $translations_sub
 
-CUDA_VISIBLE_DEVICES=$device OMP_NUM_THREADS=$num_threads python -m joeynmt translate $configs/$model_name.yaml < $data/test.$src > $translations_sub/test_beam10.$model_name.$trg
+CUDA_VISIBLE_DEVICES=$device OMP_NUM_THREADS=$num_threads python -m joeynmt translate $configs/$model_name.yaml < $data/test.$src > $translations_sub/test_beam11.$model_name.$trg
 
 # compute case-sensitive BLEU
 
-cat $translations_sub/test_beam10.$model_name.$trg | sacrebleu $data/test.$trg
+cat $translations_sub/test_beam11.$model_name.$trg | sacrebleu $data/test.$trg
 
 
 echo "time taken:"

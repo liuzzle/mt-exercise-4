@@ -35,7 +35,7 @@ data:
         
 
 testing:
-    beam_size: 10
+    beam_size: 11
     beam_alpha: 1.0
 
 training:
