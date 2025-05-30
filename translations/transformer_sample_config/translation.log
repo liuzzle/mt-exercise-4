@@ -1,0 +1,264 @@
+###############################################################################
+model_name transformer_sample_config
+2025-05-30 09:47:02,722 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2025-05-30 09:47:02,744 - INFO - joeynmt.model - Building an encoder-decoder model...
+2025-05-30 09:47:02,792 - INFO - joeynmt.model - Enc-dec model built.
+2025-05-30 09:47:02,824 - INFO - joeynmt.helpers - Load model from /Users/blueberry/Library/CloudStorage/OneDrive-UniversitätZürichUZH/Studium/FS25/MT/MT_exercises/MT_ex4/mt-exercise-4/models_bpelvl_2k_v2/47000.ckpt.
+2025-05-30 09:47:02,829 - INFO - joeynmt.tokenizers - de tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-30 09:47:02,829 - INFO - joeynmt.tokenizers - it tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-30 09:47:02,832 - INFO - joeynmt.prediction - Predicting 1567 example(s)... (Beam search with beam_size=5, beam_alpha=1.0, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2025-05-30 09:49:59,816 - INFO - joeynmt.prediction - Generation took 176.9756[sec]. (No references given)
+{
+ "name": "BLEU",
+ "score": 8.6,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.5.1",
+ "verbose_score": "41.7/15.3/6.5/2.8 (BP = 0.827 ratio = 0.840 hyp_len = 23890 ref_len = 28437)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.5.1"
+}
+time taken:
+180 seconds
+###############################################################################
+model_name transformer_sample_config
+2025-05-30 09:53:41,236 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2025-05-30 09:53:41,257 - INFO - joeynmt.model - Building an encoder-decoder model...
+2025-05-30 09:53:41,298 - INFO - joeynmt.model - Enc-dec model built.
+2025-05-30 09:53:41,333 - INFO - joeynmt.helpers - Load model from /Users/blueberry/Library/CloudStorage/OneDrive-UniversitätZürichUZH/Studium/FS25/MT/MT_exercises/MT_ex4/mt-exercise-4/models_bpelvl_2k_v2/47000.ckpt.
+2025-05-30 09:53:41,338 - INFO - joeynmt.tokenizers - de tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-30 09:53:41,338 - INFO - joeynmt.tokenizers - it tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-30 09:53:41,340 - INFO - joeynmt.prediction - Predicting 1567 example(s)... (Greedy decoding with min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2025-05-30 09:55:15,356 - INFO - joeynmt.prediction - Generation took 94.0043[sec]. (No references given)
+{
+ "name": "BLEU",
+ "score": 6.3,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.5.1",
+ "verbose_score": "30.8/10.0/3.7/1.4 (BP = 1.000 ratio = 1.226 hyp_len = 34866 ref_len = 28437)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.5.1"
+}
+time taken:
+96 seconds
+###############################################################################
+model_name transformer_sample_config
+2025-05-30 09:57:23,128 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2025-05-30 09:57:23,150 - INFO - joeynmt.model - Building an encoder-decoder model...
+2025-05-30 09:57:23,189 - INFO - joeynmt.model - Enc-dec model built.
+2025-05-30 09:57:23,221 - INFO - joeynmt.helpers - Load model from /Users/blueberry/Library/CloudStorage/OneDrive-UniversitätZürichUZH/Studium/FS25/MT/MT_exercises/MT_ex4/mt-exercise-4/models_bpelvl_2k_v2/47000.ckpt.
+2025-05-30 09:57:23,226 - INFO - joeynmt.tokenizers - de tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-30 09:57:23,226 - INFO - joeynmt.tokenizers - it tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-30 09:57:23,228 - INFO - joeynmt.prediction - Predicting 1567 example(s)... (Beam search with beam_size=3, beam_alpha=1.0, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2025-05-30 09:59:29,204 - INFO - joeynmt.prediction - Generation took 125.9667[sec]. (No references given)
+{
+ "name": "BLEU",
+ "score": 8.7,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.5.1",
+ "verbose_score": "40.4/14.6/6.1/2.6 (BP = 0.891 ratio = 0.897 hyp_len = 25503 ref_len = 28437)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.5.1"
+}
+time taken:
+128 seconds
+###############################################################################
+model_name transformer_sample_config
+2025-05-30 10:02:31,142 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2025-05-30 10:02:31,164 - INFO - joeynmt.model - Building an encoder-decoder model...
+2025-05-30 10:02:31,207 - INFO - joeynmt.model - Enc-dec model built.
+2025-05-30 10:02:31,247 - INFO - joeynmt.helpers - Load model from /Users/blueberry/Library/CloudStorage/OneDrive-UniversitätZürichUZH/Studium/FS25/MT/MT_exercises/MT_ex4/mt-exercise-4/models_bpelvl_2k_v2/47000.ckpt.
+2025-05-30 10:02:31,253 - INFO - joeynmt.tokenizers - de tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-30 10:02:31,253 - INFO - joeynmt.tokenizers - it tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-30 10:02:31,255 - INFO - joeynmt.prediction - Predicting 1567 example(s)... (Beam search with beam_size=2, beam_alpha=1.0, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2025-05-30 10:04:07,381 - INFO - joeynmt.prediction - Generation took 96.1167[sec]. (No references given)
+{
+ "name": "BLEU",
+ "score": 8.6,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.5.1",
+ "verbose_score": "38.1/13.3/5.4/2.3 (BP = 0.973 ratio = 0.973 hyp_len = 27669 ref_len = 28437)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.5.1"
+}
+time taken:
+98 seconds
+###############################################################################
+model_name transformer_sample_config
+2025-05-30 10:05:53,330 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2025-05-30 10:05:53,352 - INFO - joeynmt.model - Building an encoder-decoder model...
+2025-05-30 10:05:53,402 - INFO - joeynmt.model - Enc-dec model built.
+2025-05-30 10:05:53,436 - INFO - joeynmt.helpers - Load model from /Users/blueberry/Library/CloudStorage/OneDrive-UniversitätZürichUZH/Studium/FS25/MT/MT_exercises/MT_ex4/mt-exercise-4/models_bpelvl_2k_v2/47000.ckpt.
+2025-05-30 10:05:53,441 - INFO - joeynmt.tokenizers - de tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-30 10:05:53,441 - INFO - joeynmt.tokenizers - it tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-30 10:05:53,444 - INFO - joeynmt.prediction - Predicting 1567 example(s)... (Beam search with beam_size=4, beam_alpha=1.0, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2025-05-30 10:08:51,089 - INFO - joeynmt.prediction - Generation took 177.6363[sec]. (No references given)
+{
+ "name": "BLEU",
+ "score": 8.5,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.5.1",
+ "verbose_score": "41.1/14.9/6.3/2.7 (BP = 0.847 ratio = 0.858 hyp_len = 24395 ref_len = 28437)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.5.1"
+}
+time taken:
+180 seconds
+###############################################################################
+model_name transformer_sample_config
+2025-05-30 10:09:43,424 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2025-05-30 10:09:43,446 - INFO - joeynmt.model - Building an encoder-decoder model...
+2025-05-30 10:09:43,490 - INFO - joeynmt.model - Enc-dec model built.
+2025-05-30 10:09:43,526 - INFO - joeynmt.helpers - Load model from /Users/blueberry/Library/CloudStorage/OneDrive-UniversitätZürichUZH/Studium/FS25/MT/MT_exercises/MT_ex4/mt-exercise-4/models_bpelvl_2k_v2/47000.ckpt.
+2025-05-30 10:09:43,531 - INFO - joeynmt.tokenizers - de tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-30 10:09:43,532 - INFO - joeynmt.tokenizers - it tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-30 10:09:43,534 - INFO - joeynmt.prediction - Predicting 1567 example(s)... (Beam search with beam_size=8, beam_alpha=1.0, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2025-05-30 10:14:53,101 - INFO - joeynmt.prediction - Generation took 309.5586[sec]. (No references given)
+{
+ "name": "BLEU",
+ "score": 8.3,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.5.1",
+ "verbose_score": "42.8/15.9/7.0/3.0 (BP = 0.762 ratio = 0.786 hyp_len = 22365 ref_len = 28437)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.5.1"
+}
+time taken:
+312 seconds
+###############################################################################
+model_name transformer_sample_config
+2025-05-30 10:15:44,735 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2025-05-30 10:15:44,757 - INFO - joeynmt.model - Building an encoder-decoder model...
+2025-05-30 10:15:44,782 - INFO - joeynmt.model - Enc-dec model built.
+2025-05-30 10:15:44,814 - INFO - joeynmt.helpers - Load model from /Users/blueberry/Library/CloudStorage/OneDrive-UniversitätZürichUZH/Studium/FS25/MT/MT_exercises/MT_ex4/mt-exercise-4/models_bpelvl_2k_v2/47000.ckpt.
+2025-05-30 10:15:44,820 - INFO - joeynmt.tokenizers - de tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-30 10:15:44,820 - INFO - joeynmt.tokenizers - it tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-30 10:15:44,823 - INFO - joeynmt.prediction - Predicting 1567 example(s)... (Beam search with beam_size=10, beam_alpha=1.0, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2025-05-30 10:21:52,915 - INFO - joeynmt.prediction - Generation took 368.0849[sec]. (No references given)
+{
+ "name": "BLEU",
+ "score": 8.1,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.5.1",
+ "verbose_score": "43.1/16.0/6.8/2.9 (BP = 0.747 ratio = 0.774 hyp_len = 22021 ref_len = 28437)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.5.1"
+}
+time taken:
+370 seconds
+###############################################################################
+model_name transformer_sample_config
+2025-05-30 10:27:08,567 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2025-05-30 10:27:08,588 - INFO - joeynmt.model - Building an encoder-decoder model...
+2025-05-30 10:27:08,622 - INFO - joeynmt.model - Enc-dec model built.
+2025-05-30 10:27:08,655 - INFO - joeynmt.helpers - Load model from /Users/blueberry/Library/CloudStorage/OneDrive-UniversitätZürichUZH/Studium/FS25/MT/MT_exercises/MT_ex4/mt-exercise-4/models_bpelvl_2k_v2/47000.ckpt.
+2025-05-30 10:27:08,661 - INFO - joeynmt.tokenizers - de tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-30 10:27:08,661 - INFO - joeynmt.tokenizers - it tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-30 10:27:08,664 - INFO - joeynmt.prediction - Predicting 1567 example(s)... (Beam search with beam_size=6, beam_alpha=1.0, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2025-05-30 10:31:00,664 - INFO - joeynmt.prediction - Generation took 231.9923[sec]. (No references given)
+{
+ "name": "BLEU",
+ "score": 8.6,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.5.1",
+ "verbose_score": "42.3/15.6/6.7/2.9 (BP = 0.806 ratio = 0.823 hyp_len = 23398 ref_len = 28437)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.5.1"
+}
+time taken:
+234 seconds
+###############################################################################
+model_name transformer_sample_config
+2025-05-30 10:32:12,515 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2025-05-30 10:32:12,536 - INFO - joeynmt.model - Building an encoder-decoder model...
+2025-05-30 10:32:12,561 - INFO - joeynmt.model - Enc-dec model built.
+2025-05-30 10:32:12,594 - INFO - joeynmt.helpers - Load model from /Users/blueberry/Library/CloudStorage/OneDrive-UniversitätZürichUZH/Studium/FS25/MT/MT_exercises/MT_ex4/mt-exercise-4/models_bpelvl_2k_v2/47000.ckpt.
+2025-05-30 10:32:12,599 - INFO - joeynmt.tokenizers - de tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-30 10:32:12,599 - INFO - joeynmt.tokenizers - it tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-30 10:32:12,601 - INFO - joeynmt.prediction - Predicting 1567 example(s)... (Beam search with beam_size=7, beam_alpha=1.0, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2025-05-30 10:36:39,002 - INFO - joeynmt.prediction - Generation took 266.3929[sec]. (No references given)
+{
+ "name": "BLEU",
+ "score": 8.4,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.5.1",
+ "verbose_score": "42.6/15.8/6.9/3.0 (BP = 0.779 ratio = 0.800 hyp_len = 22760 ref_len = 28437)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.5.1"
+}
+time taken:
+268 seconds
+###############################################################################
+model_name transformer_sample_config
+2025-05-30 10:37:24,090 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2025-05-30 10:37:24,111 - INFO - joeynmt.model - Building an encoder-decoder model...
+2025-05-30 10:37:24,137 - INFO - joeynmt.model - Enc-dec model built.
+2025-05-30 10:37:24,168 - INFO - joeynmt.helpers - Load model from /Users/blueberry/Library/CloudStorage/OneDrive-UniversitätZürichUZH/Studium/FS25/MT/MT_exercises/MT_ex4/mt-exercise-4/models_bpelvl_2k_v2/47000.ckpt.
+2025-05-30 10:37:24,172 - INFO - joeynmt.tokenizers - de tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-30 10:37:24,172 - INFO - joeynmt.tokenizers - it tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-30 10:37:24,174 - INFO - joeynmt.prediction - Predicting 1567 example(s)... (Beam search with beam_size=9, beam_alpha=1.0, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2025-05-30 10:42:44,315 - INFO - joeynmt.prediction - Generation took 320.1337[sec]. (No references given)
+{
+ "name": "BLEU",
+ "score": 8.2,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.5.1",
+ "verbose_score": "42.8/15.9/7.0/3.0 (BP = 0.754 ratio = 0.780 hyp_len = 22176 ref_len = 28437)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.5.1"
+}
+time taken:
+322 seconds
+###############################################################################
+model_name transformer_sample_config
+2025-05-30 10:43:19,721 - INFO - root - Hello! This is Joey-NMT (version 2.2.0).
+2025-05-30 10:43:19,742 - INFO - joeynmt.model - Building an encoder-decoder model...
+2025-05-30 10:43:19,767 - INFO - joeynmt.model - Enc-dec model built.
+2025-05-30 10:43:19,797 - INFO - joeynmt.helpers - Load model from /Users/blueberry/Library/CloudStorage/OneDrive-UniversitätZürichUZH/Studium/FS25/MT/MT_exercises/MT_ex4/mt-exercise-4/models_bpelvl_2k_v2/47000.ckpt.
+2025-05-30 10:43:19,802 - INFO - joeynmt.tokenizers - de tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-30 10:43:19,802 - INFO - joeynmt.tokenizers - it tokenizer: SubwordNMTTokenizer(level=bpe, lowercase=False, normalize=False, filter_by_length=(-1, -1), pretokenizer=none, tokenizer=BPE, separator=@@, dropout=0.0)
+2025-05-30 10:43:19,804 - INFO - joeynmt.prediction - Predicting 1567 example(s)... (Beam search with beam_size=20, beam_alpha=1.0, n_best=1, min_output_length=1, max_output_length=-1, return_prob='none', generate_unk=True, repetition_penalty=-1, no_repeat_ngram_size=-1)
+2025-05-30 10:54:53,792 - INFO - joeynmt.prediction - Generation took 693.9805[sec]. (No references given)
+{
+ "name": "BLEU",
+ "score": 7.9,
+ "signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.5.1",
+ "verbose_score": "44.0/16.6/7.4/3.2 (BP = 0.684 ratio = 0.725 hyp_len = 20613 ref_len = 28437)",
+ "nrefs": "1",
+ "case": "mixed",
+ "eff": "no",
+ "tok": "13a",
+ "smooth": "exp",
+ "version": "2.5.1"
+}
+time taken:
+696 seconds
