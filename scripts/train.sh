@@ -22,7 +22,7 @@ mkdir -p $logs
 
 mkdir -p $logs/$model_name
 
-OMP_NUM_THREADS=$num_threads python -m joeynmt train $configs/$model_name.yaml > $logs/$model_name/out_bpelvl_2k 2> $logs/$model_name/err_bpelvl_2k
+OMP_NUM_THREADS=$num_threads python -m joeynmt train $configs/$model_name.yaml > $logs/$model_name/out_bpelvl_2k_v2 2> $logs/$model_name/err_bpelvl_2k_v2
 
 echo "time taken:"
 echo "$SECONDS seconds"
